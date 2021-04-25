@@ -8,3 +8,11 @@ def hello_world():
 @app.route('/status')
 def status():
     return 'Up'
+
+@app.route('/note')
+def get_note():
+    return 'hi'
+
+@app.route('/note', methods=['POST'])
+def post_note():
+    return 'here'
