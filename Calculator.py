@@ -11,4 +11,4 @@ def multiply(first_number,second_number):
     if is_positive:
         return result
     else:
-        return  -result
+        return -result
